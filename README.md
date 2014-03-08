@@ -5,12 +5,19 @@ A Clojure tool designed to reduce the inconvenience of markdown operations.you c
 这个clojure编写的工具用来将当前文件夹下的所有md转为html。对于经常书写Blog或者邮件的人很有帮助。它设计了很多选项，但还未发布
 
 ## Usage
- 
+if you are  a clojure programer
+> * clone this repository
+> * cd directory where you have clone
+> * type "lein uberjar" in ter
+> find jar in target fold , java -jar it wherever you need turn all md to html
+
+else
+>
 
 ## Log
-
+ 
 ### allmd2ml 0.1.0
-* 添加将文件夹下所有的md转为html功能
+*  添加将文件夹下所有的md转为html功能
 
 ### 计划开发
 * 维持原有md-ml对，对新增md添加转换的html文件
