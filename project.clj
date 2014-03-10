@@ -1,4 +1,4 @@
-(defproject allmd2ml "0.1.0"
+(defproject allmd2ml "1.0.0"
   :description "turn all md to html in current fold."
   :url "https://github.com/liuzifang/allmd2ml"
   :license {:name "Eclipse Public License"

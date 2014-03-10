@@ -11,17 +11,21 @@ if you are  a clojure programer
 > * type "lein uberjar" in ter
 > find jar in target fold , java -jar it wherever you need turn all md to html
 
-else
->
+$ java -jar thejar  #you will turn all md
 
 ## Log
- 
+  
 ### allmd2ml 0.1.0
-*  添加将文件夹下所有的md转为html功能
+ *  添加将文件夹下所有的md转为html功能
 
-### 计划开发
-* 维持原有md-ml对，对新增md添加转换的html文件
-* 仅转换单一指定的md文件
+### allmd2ml 0.3.0
+ *  修正部分0.2.0函数
+ *  添加指定文件转换功能
+
+### allmd2ml 1.0.0
+ * 取消指定文件转换功能,认为单一md的转换一般可以在编辑器中自行完成
+ * 取消日志功能
+ * 仅保留转换目录下所有md功能，且经过思考后认为不应该再增加任何功能
 
 ## License
  
