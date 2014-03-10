@@ -11,7 +11,7 @@
         :when (or (.endsWith y ".md") (.endsWith y ".markdown"))]
     x))
 
-(def mlist
+(def mlist 
   (map #(.replace (.replace % ".md" ".html") ".markdown" ".html") 
     (let [premlist (atom [])]
       (#(when-not (empty? %) 
