@@ -2,7 +2,7 @@
 
 A Clojure tool designed to reduce the inconvenience of markdown operations.you can turn all markdown file of current directory.
 
-这个clojure编写的工具用来将当前文件夹下的所有md转为html。对于经常书写Blog或者邮件的人很有帮助。它设计了很多选项，但还未发布
+这个clojure编写的工具用来将当前文件夹下的所有md转为html。对于经常书写Blog或者邮件的人很有帮助。
 
 ## Usage
 if you are  a clojure programer
